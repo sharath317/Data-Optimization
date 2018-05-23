@@ -1,0 +1,10 @@
+@import 'node_modules/react-md/src/scss/react-md';
+
+$md-primary-color: $md-teal-500;
+$md-secondary-color: $md-red-a-400;
+
+@include react-md-everything;
+
+.md-text-container {
+  max-width: 100%;
+}
